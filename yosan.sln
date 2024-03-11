@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F97C1F9-EB70-4B90-82E9-68EBF65C630C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{DDEC717F-FE4F-4CD9-9F36-19186141FFA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rosier.Yosan.Server", "src\server\Rosier.Yosan.Server\Rosier.Yosan.Server.csproj", "{3D1A399E-0BF0-405C-8DEC-4935664EA724}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D1A399E-0BF0-405C-8DEC-4935664EA724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1A399E-0BF0-405C-8DEC-4935664EA724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1A399E-0BF0-405C-8DEC-4935664EA724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1A399E-0BF0-405C-8DEC-4935664EA724}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDEC717F-FE4F-4CD9-9F36-19186141FFA7} = {7F97C1F9-EB70-4B90-82E9-68EBF65C630C}
+		{3D1A399E-0BF0-405C-8DEC-4935664EA724} = {DDEC717F-FE4F-4CD9-9F36-19186141FFA7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26274C83-D278-4C07-A119-A9EE7C4E3580}
+	EndGlobalSection
+EndGlobal
