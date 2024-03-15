@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F97C1F9-EB7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{DDEC717F-FE4F-4CD9-9F36-19186141FFA7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rosier.Yosan.Server", "src\server\Rosier.Yosan.Server\Rosier.Yosan.Server.csproj", "{3D1A399E-0BF0-405C-8DEC-4935664EA724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rosier.Yosan.Server", "src\server\RosierYosanServer.csproj", "{3D1A399E-0BF0-405C-8DEC-4935664EA724}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
