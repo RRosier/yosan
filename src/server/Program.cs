@@ -1,4 +1,10 @@
+using Microsoft.Extensions.Options;
+using Rosier.Yosan.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Add db configuration
+builder.Services.Configure<DataSettings>(builder.Configuration.GetSection("Database"));
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -18,6 +24,11 @@ var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
+
+app.MapGet("/dbsettings", (IOptions<DataSettings> options) =>
+{
+    return options.Value;
+});
 
 app.MapGet("/weatherforecast", () =>
 {

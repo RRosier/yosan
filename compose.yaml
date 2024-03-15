@@ -20,8 +20,9 @@ services:
           path: ./src/server
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-    # depends_on:
-    #   mongo:
+      - DATABASE__CONNECTIONSTRING=mongodb://localhost:27017
+    depends_on:
+      - mongo
     #     condition: service_healthy
 
   mongo:
