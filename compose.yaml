@@ -20,12 +20,12 @@ services:
           path: ./src/server
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - DATABASE__CONNECTIONSTRING=mongodb://localhost:27017
+      - DATABASE__CONNECTIONSTRING=mongodb://mongodb:27017
     depends_on:
-      - mongo
+      - mongodb
     #     condition: service_healthy
 
-  mongo:
+  mongodb:
     image: mongo
     restart: always
     ports:
